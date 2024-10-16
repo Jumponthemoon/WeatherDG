@@ -44,12 +44,7 @@ The training implementation based on [DATUM](https://github.com/yasserben/DATUM)
 ## **Citation**
 If you find this work useful, please cite:
 ```bibtex
-@article{qian2024allweathernet,
-  title={AllWeatherNet: Unified Image enhancement for autonomous driving under adverse weather and lowlight-conditions},
-  author={Qian, Chenghao and Rezaei, Mahdi and Anwar, Saeed and Li, Wenjing and Hussain, Tanveer and Azarmi, Mohsen and Wang, Wei},
-  journal={arXiv preprint arXiv:2409.02045},
-  year={2024}
-}
+
 ```
 
 
