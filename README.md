@@ -1,8 +1,7 @@
 
-# **AllWeatherNet**
-**Unified Image Enhancement for Autonomous Driving under Adverse Weather and Lowlight Conditions**
-
-AllWeatherNet is an advanced image enhancement framework designed to improve the visibility of images captured in challenging weather conditions, such as snow, rain, fog, and low-light environments. This solution is particularly tailored for autonomous driving applications, ensuring safety and performance in diverse environments.
+# **WeatherDG**
+**LLM-assisted Procedural Weather Generation for Domain-Generalized Semantic Segmentation**
+WeatherDG is a framework for domain generalized semantic segmentation, which can generate realistic and diverse autonomous driving scene images and improve semantic segmentation performance under adverse conditions such as snow, rain, fog, and low-light environments.
 
 ![Original Input](https://github.com/Jumponthemoon/AllWeatherNet/assets/39290403/15efd3e4-f878-4295-9e85-6b686d79eddc)
 ![Original Input 2](https://github.com/Jumponthemoon/AllWeatherNet/assets/39290403/0eb1a130-5ba3-4ed4-bef2-49a4b922e2ff)
