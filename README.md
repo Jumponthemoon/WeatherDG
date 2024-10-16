@@ -10,16 +10,8 @@ WeatherDG is a framework for domain generalized semantic segmentation, which can
 
 WeatherDG is a framework for domain generalized semantic segmentation, which can generate realistic and diverse autonomous driving scene images and improve semantic segmentation performance under adverse conditions such as snow, rain, fog, and low-light environments.
 
+![suppl_img_snowy](https://github.com/user-attachments/assets/7a4b99ac-c0e5-4b52-b30b-10a6cfe51488)
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/58bb6a60-9fcf-4482-87c6-db057ea09a75" alt="suppl_img_snowy" width="45%" />
-  <img src="https://github.com/user-attachments/assets/e4bf0f6c-14e6-4ccb-8ccc-5bf07d530bff" alt="suppl_img_rainy" width="45%" />
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/304316cf-1cb3-484a-85f2-852470ce49b2" alt="suppl_img_night" width="45%" />
-  <img src="https://github.com/user-attachments/assets/c4184902-876b-45d2-9004-928b8b6d0cd8" alt="suppl_img_foggy" width="42%" />
-</p>
 
 
 
