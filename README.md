@@ -12,7 +12,7 @@ WeatherDG is a framework for domain generalized semantic segmentation, which can
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ae13e6de-9954-425e-90e4-c8ad4ef2b0fa" alt="suppl_img_snowy" width="45%" />
-  <img src="https://github.com/user-attachments/assets/e4bf0f6c-14e6-4ccb-8ccc-5bf07d530bff" alt="suppl_img_rainy" width="45%" />
+  <img src="https://github.com/user-attachments/assets/e4bf0f6c-14e6-4ccb-8ccc-5bf07d530bff" alt="suppl_img_rainy" width="40%" />
 </p>
 
 <p align="center">
