@@ -1,10 +1,3 @@
-
-# **WeatherDG**
-**LLM-assisted Procedural Weather Generation for Domain-Generalized Semantic Segmentation**
-
-WeatherDG is a framework for domain generalized semantic segmentation, which can generate realistic and diverse autonomous driving scene images and improve semantic segmentation performance under adverse conditions such as snow, rain, fog, and low-light environments.
-
-
 # **WeatherDG**
 **LLM-assisted Procedural Weather Generation for Domain-Generalized Semantic Segmentation**
 
