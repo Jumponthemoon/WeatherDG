@@ -9,11 +9,12 @@ WeatherDG is a framework for domain generalized semantic segmentation, which can
 
 
 ## **Key Features**
-- **Unified Enhancement:** Enhances images captured under various adverse weather conditions, including snowy, rainy, foggy, and nighttime scenarios.
-- **Scaled-Illumination Attention:** Employs a robust scaled-illumination attention mechanism to maintain focus on the road across different conditions.
-- **Hierarchical Discrimination:** Utilizes hierarchical patch-level discrimination at scene, object, and texture levels for more effective enhancement.
+- **Collaborations of Foundation Model:** Propose a novel data augmentation framework based on SD and LLM for domain generalization in adverse weather conditions.
+- **LLM-Agents** Utilize collaborations of LLM agents for prompt generation to encourage SD to generate realistic driving-screen samples under adverse weather conditons.
+- **Sampling strategy** Propose a probabilistic sampling strategy for enriching underrepresented objects in adverse weather conditions.
 
-![Architecture](https://github.com/Jumponthemoon/AllWeatherNet/assets/39290403/0fb128f1-b5c7-4e13-a718-a1254779022a)
+![method1](https://github.com/user-attachments/assets/3a1b0370-9319-47bf-bf85-513af614cb2a)
+
 
 ## **Environment Setup**
 
