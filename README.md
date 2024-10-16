@@ -3,7 +3,6 @@
 
 [![Project Page](https://img.shields.io/badge/Project-Page-yellow)](https://jumponthemoon.github.io/WeatherDG.github.io/))
 [![arXiv Paper](https://img.shields.io/badge/arXiv-Paper-blue)](https://arxiv.org/abs/example-paper)
-![View Count](https://komarev.com/ghpvc/?username=Jumponthemoon&color=blue)
 
 
 
