@@ -1,7 +1,7 @@
 # **WeatherDG**
 **LLM-assisted Procedural Weather Generation for Domain-Generalized Semantic Segmentation**
 
-[![Project Page](https://img.shields.io/badge/Project-Page-yellow)](https://example.com/project-page)
+[![Project Page](https://img.shields.io/badge/Project-Page-yellow)]([https://example.com/project-page](https://jumponthemoon.github.io/WeatherDG.github.io/))
 [![arXiv Paper](https://img.shields.io/badge/arXiv-Paper-blue)](https://arxiv.org/abs/example-paper)
 ![View Count](https://komarev.com/ghpvc/?username=Jumponthemoon&color=blue)
 
