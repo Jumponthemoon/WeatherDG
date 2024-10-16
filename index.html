@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>WeatherDG: LLM-assisted Procedural Weather Generation for Domain-Generalized Semantic Segmentation</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-3 publication-title">WeatherDG: LLM-assisted Procedural Weather Generation for Domain-Generalized Semantic Segmentation</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">Chenghao Qian<sup>1*</sup>,</span>
+              <span class="author-block">Yuhu Guo<sup>2*</sup>,</span>
+              <span class="author-block">Yohong Mo<sup>2</sup>,</span>
+              <span class="author-block">Wenjing Li<sup>1</sup></span>
+            </div>
+  
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>University of Leeds, <sup>2</sup>Carnegie Mellon University</span>
+              <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+            </div>
+  
+            <!-- arXiv link -->
+            <span class="link-block">
+              <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+              class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <i class="ai ai-arxiv"></i>
+              </span>
+              <span>arXiv</span>
+              </a>
+            </span>
+            <!-- Code link -->
+            <span class="link-block">
+              <a href="https://github.com/Jumponthemoon/WeatherDG" target="_blank"
+              class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>Code</span>
+              </a>
+            </span>
+    <!-- Dataset link -->
+                  <!-- <span class="link-block">
+                    <a href="https://your-dataset-link.com" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-database"></i>
+                    </span>
+                    <span>Dataset</span>
+                    </a>
+                  </span> -->
+
+
+                                      <!-- Arxiv PDF link -->
+                      <!-- <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span> -->
+
+                    <!-- Supplementary PDF link -->
+                    <!-- <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Github link -->
+                  <!-- <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span> -->
+
+                <!-- ArXiv abstract Link -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div>
+  <!-- First Section: Synthetic Images -->
+  <section class="hero is-small" style="flex: 0.5; margin-bottom: 0px;">
+    <div class="hero-body" style="padding-bottom: 0;">
+      <div class="container has-text-centered">
+        <div style="display: flex; justify-content: center; align-items: center; gap: 1px;">
+          <!-- First image with title -->
+          <div style="width: 100%; height: auto;">
+            <img src="static/images/intro.jpg" alt="Synthetic Image" style="width: 39%; height: auto; object-fit: cover;">
+            <h3 class="container has-text-centered" style="margin-top: 2px; width: 39%; text-align: center;">
+              Comparison between synthetic and real-world images under adverse weather conditions
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="hero is-small" style="margin-top: 0;">
+    <div class="hero-body" style="padding-top: 0;">
+      <div class="container" style="max-width: 19%; margin: 0 auto;">
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item">
+            <!-- First image -->
+            <img src="static/images/suppl_img_snowy.jpg" alt="MY ALT TEXT">
+            <h2 class="subtitle has-text-centered">
+              Generated images for snowy weather conditions.
+            </h2>
+          </div>
+          <div class="item">
+            <!-- Second image -->
+            <img src="static/images/suppl_img_night.jpg" alt="MY ALT TEXT">
+            <h2 class="subtitle has-text-centered">
+              Generated images for night conditions.
+            </h2>
+          </div>
+          <div class="item">
+            <!-- Third image -->
+            <img src="static/images/suppl_img_rainy.jpg" alt="MY ALT TEXT">
+            <h2 class="subtitle has-text-centered">
+              Generated images for rainy weather conditions.
+            </h2>
+          </div>
+          <div class="item">
+            <!-- Fourth image -->
+            <img src="static/images/suppl_img_foggy.jpg" alt="MY ALT TEXT">
+            <h2 class="subtitle has-text-centered">
+              Generated images for foggy weather conditions.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            In this work, we propose a novel approach, namely WeatherDG, that can generate realistic, weather-diverse, and driving-screen images based on the cooperation of two foundation models, i.e, Stable Diffusion (SD) and Large Language Model (LLM). Specifically, we first fine-tune the SD with source data, aligning the content and layout of generated samples with real-world driving scenarios. Then, we propose a procedural prompt generation method based on LLM, which can enrich scenario descriptions and help SD automatically generate more diverse, detailed images. In addition, we introduce a balanced generation strategy, which encourages the SD to generate high-quality objects of tailed classes under various weather conditions, such as riders and motorcycles. This segmentation-model-agnostic method can improve the generalization ability of existing models by additionally adapting them with the generated synthetic data. Experiments on three challenging datasets show that our method can significantly improve the segmentation performance of different state-of-the-art models on target domains. Notably, in the setting of ''Cityscapes to ACDC'', our method improves the baseline HRDA by 13.9% in mIoU.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div style="text-align: center;">
+        <h2 class="title is-3">Methods</h2>
+      </div>
+      
+      <div id="results-carousel" class="carousel results-carousel" style="display: flex; flex-direction: column; align-items: center;">
+        <div class="item" style="max-width: 100%; text-align: center;">
+          <!-- First image -->
+          <img src="static/images/method1.png" alt="MY ALT TEXT" style="max-width: 80%; height: auto; max-height: 400px; margin: 0 auto;">
+          <h2 class="subtitle has-text-centered">
+            The overview of WeatherDG pipeline.
+          </h2>
+        </div>
+        <div class="item" style="max-width: 100%; text-align: center;">
+          <!-- Second image -->
+          <img src="static/images/method2.png" alt="MY ALT TEXT" style="max-width: 80%; height: auto; max-height: 400px; margin: 0 auto;">
+          <h2 class="subtitle has-text-centered">
+            The process of prompt generation by gradually introducing LLM agents.
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div style="text-align: center;">
+  <h2 class="title is-3">Experiments</h2>
+</div>
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div style="display: flex; justify-content: center; align-items: center; gap: 2px;">
+        <!-- First image with title -->
+        <div style="width:39%; height: auto;">
+          <img src="static/images/Exp3.jpg" alt="Synthetic Image" style="width: 100%; height: auto; object-fit: cover;">
+          <h3 class="subtitle" style="margin-top: 2px;">
+            Visualization of domain-generalized semantic segmentation results: MIC vs. WeatherDG.
+          </h3>
+        </div>
+        
+        <!-- Second image with title -->
+        <!-- <div style="width: 35%; height: 70%;">
+          <img src="static/images/intro_2.jpg" alt="Real-world Image" style="width: 100%; height: auto; object-fit: cover;">
+          <h3 class="subtitle" style="margin-top: 10px;">
+            Real-world Image under Adverse Weather Conditions
+          </h3>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+
+      
+      <div id="results-carousel" class="carousel results-carousel" style="display: flex; flex-direction: column; align-items: center;">
+        <div class="item" style="max-width: 100%; text-align: center;">
+          <!-- First image -->
+          <img src="static/images/Exp1.jpg" alt="MY ALT TEXT" style="max-width: 80%; height: auto; max-height: 400px; margin: 0 auto;">
+          <h2 class="subtitle has-text-centered">
+            Comparison of images generated by the plain stable diffusion model (top row) and our fine-tuned model (bottom row) using the same prompt template.
+          </h2>
+        </div>
+        <div class="item" style="max-width: 100%; text-align: center;">
+          <!-- Second image -->
+          <img src="static/images/Exp2.jpg" alt="MY ALT TEXT" style="max-width: 80%; height: auto; max-height: 400px; margin: 0 auto;">
+          <h2 class="subtitle has-text-centered">
+            Comparison of images generated using prompts created by different LLM agents.
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- End teaser video -->
+<!-- Image carousel -->
+
+<!-- End image carousel -->
+
+
+
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+           </a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
