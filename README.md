@@ -30,7 +30,7 @@ WeatherDG is a framework for domain generalized semantic segmentation, which can
 ### **Demo Instructions**
 
 1. **Download the Pretrained Model:**  
-   Download and unzip the pretrained model from [this link](https://drive.google.com/file/d/1n26I1FgwmMtwdKyFZNvd-sDvrR-0qm8v/view?usp=drive_link) and change the --sd_path scripts/gen_data_weather.sh to be the model path.
+   Download and unzip the pretrained model from [this link](https://drive.google.com/file/d/1n26I1FgwmMtwdKyFZNvd-sDvrR-0qm8v/view?usp=drive_link) and change the --sd_path in scripts/gen_data_weather.sh to be the model path.
 
 2. **Run the Script:**  
    Execute the script using the following command:
