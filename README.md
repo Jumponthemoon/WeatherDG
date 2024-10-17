@@ -54,7 +54,7 @@ If you find this work useful, please cite:
 }
 
 ```
-![View Count](https://komarev.com/ghpvc/?username=Jumponthemoon&color=green)
+![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Jumponthemoon/WeatherDG&title=views&style=flat-square)
 
 
 
