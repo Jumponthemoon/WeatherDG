@@ -63,7 +63,7 @@ def main(args):
 
     np.random.seed(42)
     prompts = []
-    with open('/media/chenghao/Fanxiang/dataset/3000_sampling_correct_weather_time_no_location3.txt') as f:
+    with open('./prompts.txt') as f:
         data = f.readlines()
         for idx,prompt in enumerate(data):
 
