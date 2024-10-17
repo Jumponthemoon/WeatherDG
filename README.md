@@ -2,7 +2,7 @@
 **LLM-assisted Procedural Weather Generation for Domain-Generalized Semantic Segmentation**
 
 [![Project Page](https://img.shields.io/badge/Project-Page-yellow)](https://jumponthemoon.github.io/WeatherDG.github.io/)
-[![arXiv Paper](https://img.shields.io/badge/arXiv-Paper-blue)](https://arxiv.org/abs/example-paper)
+[![arXiv Paper](https://img.shields.io/badge/arXiv-Paper-blue)](https://arxiv.org/pdf/2410.12075)
 
 
 
@@ -43,6 +43,15 @@ The training implementation based on [DATUM](https://github.com/yasserben/DATUM)
 ## **Citation**
 If you find this work useful, please cite:
 ```bibtex
+@misc{qian2024weatherdg,
+  title={WeatherDG: LLM-assisted Procedural Weather Generation for Domain-Generalized Semantic Segmentation}, 
+  author={Chenghao Qian and Yuhu Guo and Yuhong Mo and Wenjing Li},
+  year={2024},
+  eprint={2410.12075},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2410.12075}, 
+}
 
 ```
 
