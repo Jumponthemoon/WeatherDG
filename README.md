@@ -1,92 +1,52 @@
-<<<<<<< HEAD
-# WeatherDG
-=======
-#### **Table of contents**
-1. [Introduction](#pytorch-implementation-of-dataset-diffusion-diffusion-based-synthetic-data-generation-for-pixel-level-semantic-segmentation-neurips2023)
-1. [Requirements](#requirements)
-2. [Usage](#usage-command-lines)
-    * [Generate synthetic data](#generating-synthetic-data)
-    * [Train the semantic segmenter](#training-the-semantic-segmenter)
-3. [Contacts](#contacts)
+# **WeatherDG**
+**LLM-assisted Procedural Weather Generation for Domain-Generalized Semantic Segmentation**
+
+[![Project Page](https://img.shields.io/badge/Project-Page-yellow)](https://jumponthemoon.github.io/WeatherDG.github.io/)
+[![arXiv Paper](https://img.shields.io/badge/arXiv-Paper-blue)](https://arxiv.org/abs/example-paper)
 
 
-# **PyTorch implementation of Dataset Diffusion: Diffusion-based Synthetic Data Generation for Pixel-Level Semantic Segmentation (NeurIPS2023)**
-<a href="https://arxiv.org/abs/2309.14303"><img src="https://img.shields.io/badge/arxiv-2309.14303-red?style=for-the-badge"></a>
 
-[Quang Nguyen](https://quang-ngh.github.io/),
-[Truong Vu](https://scholar.google.com/citations?user=mTbQ2ZsAAAAJ&hl=vi),
-[Anh Tran](https://scholar.google.com/citations?user=FYZ5ODQAAAAJ&hl=en),
-[Khoi Nguyen](https://khoinguyen.org)<br>
-**VinAI Research, Vietnam**
+WeatherDG is a framework for domain generalized semantic segmentation, which can generate realistic and diverse autonomous driving scene images and improve semantic segmentation performance under adverse conditions such as snow, rain, fog, and low-light environments.
 
-> **Abstract:** 
-Preparing training data for deep vision models is a labor-intensive task. To ad-
-dress this, generative models have emerged as an effective solution for generating
-synthetic data. While current generative models produce image-level category
-labels, we propose a novel method for generating pixel-level semantic segmen-
-tation labels using the text-to-image generative model Stable Diffusion (SD). By
-utilizing the text prompts, cross-attention, and self-attention of SD, we introduce
-three new techniques: class-prompt appending, class-prompt cross-attention, and
-self-attention exponentiation. These techniques enable us to generate segmentation
-maps corresponding to synthetic images. These maps serve as pseudo-labels for
-training semantic segmenters, eliminating the need for labor-intensive pixel-wise
-annotation. To account for the imperfections in our pseudo-labels, we incorporate
-uncertainty regions into the segmentation, allowing us to disregard loss from those
-regions. We conduct evaluations on two datasets, PASCAL VOC and MSCOCO,
-and our approach significantly outperforms concurrent work.
+![suppl_img_snowy](https://github.com/user-attachments/assets/7a4b99ac-c0e5-4b52-b30b-10a6cfe51488)
 
-![teaser.png](./assets/main_diagram8-1.png)
-Details of the model architecture and experimental results can be found in [our following paper](https://arxiv.org/abs/2309.14303).<br>
-Please **CITE** our paper whenever this repository is used to help produce published results or incorporated into other software.
+
+
+
+## **Key Features**
+- **Collaborations of Foundation Model:** Propose a novel data augmentation framework based on SD and LLM for domain generalization in adverse weather conditions.
+- **LLM-Agents** Utilize collaborations of LLM agents for prompt generation to encourage SD to generate realistic driving-screen samples under adverse weather conditons.
+- **Sampling strategy** Propose a probabilistic sampling strategy for enriching underrepresented objects in adverse weather conditions.
+
+![method1](https://github.com/user-attachments/assets/3a1b0370-9319-47bf-bf85-513af614cb2a)
+
+
+## **Environment Setup**
+- Python ≥ 3.8
+- PyTorch ≥ 1.10 and torchvision that matches the PYTorch installation. Follow official instruction
+- HuggingFace installations: diffusers, transformers, safetensors
+- pip install --user -U nltk
+### **Demo Instructions**
+
+1. **Download the Pretrained Model:**  
+   Download and unzip the pretrained model from [this link](https://drive.google.com/file/d/1n26I1FgwmMtwdKyFZNvd-sDvrR-0qm8v/view?usp=drive_link) and change the --sd_path in scripts/gen_data_weather.sh to be the model path.
+
+2. **Run the Script:**  
+   Execute the script using the following command:
+   ```bash
+   sh scripts/gen_data_weather.sh
+
+
+## **Acknowledgements**
+The training implementation based on [DATUM](https://github.com/yasserben/DATUM). The inference codebase is borrowed from [DatasetDiffuson](https://github.com/VinAIResearch/Dataset-Diffusion). We greatly appreciate the authors for their outstanding contributions.
+
+## **Citation**
+If you find this work useful, please cite:
 ```bibtex
-@inproceedings{quangtruong2023@dd,
-  title={Dataset Diffusion: Diffusion-based Synthetic Dataset Generation for Pixel-Level Semantic Segmentation},
-  author={Quang Ho Nguyen, Truong Vu, Anh Tran, Khoi Nguyen},
-  year={2023},
-  booktitle={Thirty-Seventh Conference on Neural Information Processing Systems},
-}
+
 ```
 
-## **Requirements**
-* OS: we recommend Linux for performance and compatibility reasons.
-* 64-bit Python ≥ 3.8
-* PyTorch ≥ 1.10 and torchvision that matches the PYTorch installation. Follow [official instruction](https://pytorch.org/get-started/locally/)
-* [HuggingFace installations](https://huggingface.co/docs/diffusers/installation): diffusers, transformers, safetensors
-* `pip install --user -U nltk`
-
-Please refer to [INSTALL.md](INSTALL.md) for installations of MMCV and datasets preparation.
-
-## **Usage: Command lines**
-### **Generating synthetic data**
-* To generate synthetic dataset with VOC classes, run 
-```shell
-sh scripts/gen_data_voc.sh
-```
-The dataset will be saved to `data/gen_voc` by default.
 
 
-* To generate synthetic dataset with COCO classes, run 
-```shell
-sh scripts/gen_data_coco.sh
-```
-The dataset will be saved to `data/gen_coco` by default.
 
 
-### **Training the semantic segmenter**
-* To train the semantic segmenter on VOC synthetic dataset, run 
-```shell
-sh scripts/train_mmseg_voc.sh
-```
-
-* To train the semantic segmenter on COCO synthetic dataset, run 
-```shell
-sh scripts/train_mmseg_coco.sh
-```
-
-You can alter the number of GPUs for training specified in these scripts.
-
-##  **Dataset**
-The generated dataset is provided [here](https://drive.google.com/file/d/1_4-13V9lfwJneMD-jHmg0Igcf6HV8-F_/view?usp=sharing)
-## **Contacts**:
-If you have any questions about this project, please don't hestitate to drop me an email quangngcs@gmail.com or open an issue in this repository
->>>>>>> First commit
