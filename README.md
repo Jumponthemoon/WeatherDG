@@ -54,6 +54,8 @@ If you find this work useful, please cite:
 }
 
 ```
+![View Count](https://komarev.com/ghpvc/?username=Jumponthemoon&color=green)
+
 
 
 
