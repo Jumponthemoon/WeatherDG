@@ -1,6 +1,6 @@
 
 
 CUDA_VISIBLE_DEVICES=0 python -m gen_data \
-    --work-dir /media/chenghao/Fanxiang/dataset \
+    --work-dir /path/to/work dir \
     --batch-size 1\
-    --sd-path /media/chenghao/Fanxiang/Projects/DATUM/checkpoints/cityscapes/inf_ckpt200 \
+    --sd-path /path/to/model/inf_ckpt200 \
