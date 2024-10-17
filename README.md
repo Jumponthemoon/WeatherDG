@@ -38,7 +38,7 @@ WeatherDG is a framework for domain generalized semantic segmentation, which can
 
 
 ## **Acknowledgements**
-The training implementation based on [DATUM](https://github.com/yasserben/DATUM). The inference codebase is borrowed from [DatasetDiffuson](https://github.com/VinAIResearch/Dataset-Diffusion). We greatly appreciate the authors for their outstanding contributions.
+The training and inference codebase are based on [DATUM](https://github.com/yasserben/DATUM) and [DatasetDiffuson](https://github.com/VinAIResearch/Dataset-Diffusion). We greatly appreciate the authors for their outstanding contributions.
 
 ## **Citation**
 If you find this work useful, please cite:
