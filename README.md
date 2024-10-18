@@ -27,18 +27,22 @@ WeatherDG is a framework for domain generalized semantic segmentation, which can
 - HuggingFace installations: diffusers, transformers, safetensors
 - pip install --user -U nltk
 ### **Demo Instructions**
-
+#### **Image generation**
 1. **Download the Pretrained Model:**  
    Download and unzip the pretrained model from [this link](https://drive.google.com/file/d/14brJUUs6C2CUAq4VFc8gpPXt9YW53aN5/view?usp=drive_link) and change the --sd_path in scripts/gen_data_weather.sh to be the model path.
 
-2. **Run the Script:**  
+2. **Run the Script:** 
    Execute the script using the following command:
    ```bash
    sh scripts/gen_data_weather.sh
 
+3. **(Alternative) Download generated datasets from [this link](https://drive.google.com/file/d/1Mm8Vo6ZOZgT5LpZdEZ8tyfKcsqhPgkEk/view?usp=drive_link)**
+
+#### **Semantic Segmentation Training**
+   You can use the generated dataset for domain adaptive semantic segmentation training. For more details, please refer to [MIC](https://github.com/lhoyer/MIC) and [DAFormer](https://github.com/lhoyer/DAFormer) 
 
 ## **Acknowledgements**
-The training and inference codebase are based on [DATUM](https://github.com/yasserben/DATUM) and [DatasetDiffuson](https://github.com/VinAIResearch/Dataset-Diffusion). We greatly appreciate the authors for their outstanding contributions.
+The diffusion training and inference codebase are based on [DATUM](https://github.com/yasserben/DATUM) and [DatasetDiffuson](https://github.com/VinAIResearch/Dataset-Diffusion). We greatly appreciate the authors for their outstanding contributions.
 
 ## **Citation**
 If you find this work useful, please cite:
