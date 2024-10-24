@@ -41,8 +41,7 @@ WeatherDG is a framework for domain generalized semantic segmentation, which can
 #### **Semantic Segmentation Training**
    You can use the generated dataset for domain adaptive semantic segmentation training. For more details, please refer to [MIC](https://github.com/lhoyer/MIC) and [DAFormer](https://github.com/lhoyer/DAFormer) 
 
-## **Acknowledgements**
-The diffusion training and inference codebase are based on [DATUM](https://github.com/yasserben/DATUM) and [DatasetDiffuson](https://github.com/VinAIResearch/Dataset-Diffusion). We greatly appreciate the authors for their outstanding contributions.
+
 
 ## **Citation**
 If you find this work useful, please cite:
