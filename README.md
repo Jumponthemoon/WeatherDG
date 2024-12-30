@@ -1,5 +1,5 @@
 # **WeatherDG**
-**LLM-assisted Procedural Weather Generation for Domain-Generalized Semantic Segmentation**
+**LLM-assisted Diffusion Model for Procedural Weather Generation in Domain-Generalized Semantic Segmentation**
 
 [![Project Page](https://img.shields.io/badge/Project-Page-yellow)](https://jumponthemoon.github.io/WeatherDG.github.io/)
 [![arXiv Paper](https://img.shields.io/badge/arXiv-Paper-blue)](https://arxiv.org/pdf/2410.12075)
