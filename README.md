@@ -46,15 +46,17 @@ WeatherDG is a framework for domain generalized semantic segmentation, which can
 ## **Citation**
 If you find this work useful, please cite:
 ```bibtex
-@misc{qian2024weatherdg,
-  title={WeatherDG: LLM-assisted Procedural Weather Generation for Domain-Generalized Semantic Segmentation}, 
-  author={Chenghao Qian and Yuhu Guo and Yuhong Mo and Wenjing Li},
-  year={2024},
-  eprint={2410.12075},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV},
-  url={https://arxiv.org/abs/2410.12075}, 
-}
+@ARTICLE{10960638,
+  author={Qian, Chenghao and Guo, Yuhu and Mo, Yuhong and Li, Wenjing},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={WeatherDG: LLM-Assisted Procedural Weather Generation for Domain-Generalized Semantic Segmentation}, 
+  year={2025},
+  volume={10},
+  number={6},
+  pages={5919-5926},
+  keywords={Meteorology;Training;Diffusion models;Autonomous vehicles;Semantic segmentation;Lighting;Data models;Adaptation models;Layout;Data augmentation;Domain generalization;LLM;semantic segmentation;weather generation},
+  doi={10.1109/LRA.2025.3559821}}
+
 
 ```
 
