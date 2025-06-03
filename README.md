@@ -14,6 +14,8 @@ WeatherDG is a framework that can generate realistic and diverse autonomous driv
 
 
 ## **Key Features**
+> ⭐ **If you like our work or find it useful, please give us a star or cite below. Thanks!**
+
 - **Collaborations of Foundation Model:** Propose a novel data augmentation framework based on SD and LLM for domain generalization in adverse weather conditions.
 - **LLM-Agents** Utilize collaborations of LLM agents for prompt generation to encourage SD to generate realistic driving-screen samples under adverse weather conditons.
 - **Sampling strategy** Propose a probabilistic sampling strategy for enriching underrepresented objects in adverse weather conditions.
@@ -43,8 +45,9 @@ WeatherDG is a framework that can generate realistic and diverse autonomous driv
 
 
 
+
 ## **Citation**
-If you find this work useful, please cite:
+
 ```bibtex
 @ARTICLE{10960638,
   author={Qian, Chenghao and Guo, Yuhu and Mo, Yuhong and Li, Wenjing},
